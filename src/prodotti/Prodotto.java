@@ -11,10 +11,38 @@ public class Prodotto {
 
     private double iva;
 
+    /* costruttore */
+    public Prodotto(int codice, String nome, String marca, double prezzo, double iva) {
+        this.codice = codice;
+        this.nome = nome;
+        this.marca = marca;
+        this.prezzo = prezzo;
+        this.iva = iva;
+    }
+
+    /* getters */
     public int getCodice(){
         return codice;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public double getPrezzo() {
+        return prezzo;
+    }
+
+    public double getIva() {
+        return iva;
+    }
+
+
+    /* setters */
     public void setNome(String nome) {
         this.nome = nome;
     }

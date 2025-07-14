@@ -1,0 +1,25 @@
+package cuffie;
+
+import prodotti.Prodotto;
+
+public class Cuffia extends Prodotto {
+    private String colore;
+
+    private String tipoConnessione;
+
+
+    public Cuffia(int codice, String nome, String marca, double prezzo, double iva, String colore,
+            String tipoConnessione) {
+        super(codice, nome, marca, prezzo, iva);
+        this.colore = colore;
+        this.tipoConnessione = tipoConnessione;
+    }
+
+    public void setColore(String colore) {
+        this.colore = colore;
+    }
+
+    public void setTipoConnessione(String tipoConnessione) {
+        this.tipoConnessione = tipoConnessione;
+    }
+}
