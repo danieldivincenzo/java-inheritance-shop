@@ -63,5 +63,9 @@ public class Prodotto {
         this.iva = iva;
     }
 
+    public String toString(){
+        return "Codice: " + codice + ", nome: " + nome + ", marca: " + marca + ", prezzo: " + prezzo + ", iva: " + iva;
+    }
+
     
 }

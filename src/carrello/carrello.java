@@ -49,16 +49,9 @@ public class carrello {
             double ivaS = scan.nextDouble();
             p1.setIva(ivaS);
 
-            System.out.println("");
-
-            System.out.println(p1.getCodice());
-            System.out.println(p1.getNome());
-            System.out.println(p1.getMarca());
-            System.out.println(p1.getPrezzo());
-            System.out.println(p1.getIva());
+            System.out.println(p1.toString());
             
-
-        }else if (numeroProdotto == 2){
+        } else if (numeroProdotto == 2){
 
             System.out.println("Hai scelto un Terlevisore, ora dai un valore alle sue caratteristiche.");
 
@@ -91,14 +84,7 @@ public class carrello {
             double ivaT = scan.nextDouble();
             p1.setIva(ivaT);
 
-
-            System.out.println("");
-
-            System.out.println(p1.getCodice());
-            System.out.println(p1.getNome());
-            System.out.println(p1.getMarca());
-            System.out.println(p1.getPrezzo());
-            System.out.println(p1.getIva());
+            System.out.println(p1.toString());
 
         } else if (numeroProdotto == 3){
             System.out.println("Hai scelto una Cuffia, ora dai un valore alle sue caratteristiche.");
@@ -133,13 +119,7 @@ public class carrello {
             double ivaT = scan.nextDouble();
             p1.setIva(ivaT);
 
-            System.out.println("");
-
-            System.out.println(p1.getCodice());
-            System.out.println(p1.getNome());
-            System.out.println(p1.getMarca());
-            System.out.println(p1.getPrezzo());
-            System.out.println(p1.getIva());
+            System.out.println(p1.toString());
 
         } else {
 
@@ -168,12 +148,7 @@ public class carrello {
             double ivaT = scan.nextDouble();
             p1.setIva(ivaT);
 
-           
-            System.out.println(p1.getCodice());
-            System.out.println(p1.getNome());
-            System.out.println(p1.getMarca());
-            System.out.println(p1.getPrezzo());
-            System.out.println(p1.getIva());
+            System.out.println(p1.toString());
         }
         
     }

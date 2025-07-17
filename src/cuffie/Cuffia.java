@@ -35,4 +35,9 @@ public class Cuffia extends Prodotto {
     public void setTipoConnessione(String tipoConnessione) {
         this.tipoConnessione = tipoConnessione;
     }
+
+    @Override
+    public String toString(){
+        return "Codice: " + getCodice() + ", nome: " + getNome() + ", marca: " + getMarca() + ", prezzo: " + getPrezzo() + ", iva: " + getIva() + ", colore: " + colore + ", tipo di connessione: " + tipoConnessione;
+    }
 }
