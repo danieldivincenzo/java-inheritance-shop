@@ -7,10 +7,14 @@ public class Smartphone extends Prodotto {
 
     private int memoria;
 
-    
-    public Smartphone(int codice, String nome, String marca, double prezzo, double iva, String codiceImei,
+    /* public Smartphone(int codice, String nome, String marca, double prezzo, double iva, String codiceImei,
             int memoria) {
         super(codice, nome, marca, prezzo, iva);
+        this.codiceImei = codiceImei;
+        this.memoria = memoria;
+    } */
+
+    public Smartphone(String codiceImei, int memoria){
         this.codiceImei = codiceImei;
         this.memoria = memoria;
     }
